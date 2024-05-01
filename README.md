@@ -1,27 +1,16 @@
-# D280Project
+# Interactive World Map
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+## Project Overview
+Interactive-World-Map is an interactive web application designed to display various country-specific information upon interaction. The application leverages Angular for its frontend framework, showcasing a scalable and maintainable approach to modern web development. The application displays data such as the country's name, capital, region, population, and more, fetched from external APIs.
 
-## Development server
+## Features
+- Interactive world map allowing selection of a country to view detailed information.
+- Real-time data fetching from GeoNames and World Bank APIs to display country details like population, area, income level, and more.
+- Responsive design for optimal viewing on devices of various sizes.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies Used
+- **Angular**: For building the user interface.
+- **TypeScript**: Used for writing application logic.
+- **HTML/CSS**: For layout and presentation.
+- **APIs**: GeoNames, World Bank.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
